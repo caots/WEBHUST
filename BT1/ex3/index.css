@@ -1,0 +1,116 @@
+html,
+body {
+  background: #9e9e9e14;
+}
+
+.new-feed {
+  margin: 50px 0;
+  background: #9e9e9e14;
+  min-height: 100vh;
+}
+
+.new-feed .post {
+  width: 600px;
+  background-color: #fff;
+  margin: auto;
+  box-shadow: 0 -2px 14px rgba(0, 0, 0, 0.04), 0 3px 6px rgba(0, 0, 0, 0.02);
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+.new-feed .post .header {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.new-feed .post .header .info {
+  display: flex;
+}
+
+.new-feed .post .header .img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 10px;
+}
+
+.new-feed .post .header .img img {
+  width: 100%;
+  cursor: pointer;
+}
+
+.new-feed .post .header .name h3 {
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.new-feed .post .header .name p {
+  font-size: 14px;
+  color: gray;
+  margin: 0;
+}
+
+.new-feed .post .header .more {
+  font-size: 20px;
+  padding-right: 10px;
+}
+
+.new-feed .post .title {
+  padding: 0 10px;
+  font-size: 14px;
+}
+
+.new-feed .post .img-body {
+  display: flex;
+  margin-top: 20px;
+}
+
+.new-feed .post .img-body img {
+  width: 50%;
+}
+
+.new-feed .post .footer {
+  margin-top: 10px;
+  padding: 10px;
+  color: gray;
+  font-size: 16px;
+}
+
+.new-feed .post .footer .like-cmt {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.new-feed .post .footer .like-cmt .like i {
+  color: #1877f2;
+}
+
+.new-feed .post .footer .like-cmt .comment-share .cmt {
+  margin-right: 10px;
+}
+
+.new-feed .post .footer .like-cmt .like,
+.new-feed .post .footer .like-cmt .comment-share .share,
+.new-feed .post .footer .like-cmt .comment-share .cmt {
+  cursor: pointer;
+}
+
+.footer .btn-social{
+    padding: 5px 0;
+    margin-top: 10px;
+    border-top: 1px solid rgba(187, 186, 186, 0.959);
+    border-bottom: 1px solid rgba(187, 186, 186, 0.959);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .btn-social .btn{
+    color: gray;
+    cursor: pointer;
+    font-weight: 500;
+}
